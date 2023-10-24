@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.header {
+    max-width: 1440px;
+    margin: 48px auto 0 auto;
+}
+
+
+.title {
+    display: inline-flex;
+    margin-bottom: 48px;
+}
+
+h1 {
+    max-width: 1035px;
+    color: #212227;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cloud {
+    vertical-align: top;
+}
+
+.cloudText {
+    top: 26.52px;
+    left: 28px;
+    position: absolute;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform: rotate(-3.772deg);
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMe p {
+    width: 535px;
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.aboutMe button {
+    width: 245px;
+    height: 78px;
+    border-radius: 50.033px;
+    border: 2px solid #009C4B;
+    background-color: transparent;
+    color: #009C4B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.aboutMe button:hover {
+    background-color: #009C4B;
+    color: #fff;
+}
+
+.damir {
+    margin-top: 60px;
+}
+
+.damir img {
+    width: 100%;
+}
+
+.projects {
+    max-width: 1440px;
+    margin: 120px auto 0 auto;
+}
+
+.projectsHeader {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+h2 {
+    color: #212227;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.projectsHeader p {
+    width: 277px;
+    color: #444653;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.sitesTable {
+    margin-top: 48px;
+    border-bottom: 1px solid #444653;;
+}
+
+.projectLink:hover div {
+    color: #009C4B;
+}
+/* .sitesTable:hover .tags div {
+    color: #009C4B;
+} */
+
+
+.project {
+    border-top: 1px solid #444653;
+
+}
+
+.projectLink {
+    height: 93px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 21px;
+    text-decoration: none;
+}
+
+.projectTitle {
+    color: #212227;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    transition: .5s;
+}
+
+.projectDescription {
+    color: #212227;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+}
+
+.tags {
+    display: flex;
+
+}
+
+.tags div {
+    /* width: 106px; */
+    padding: 0 10px;
+    height: 33px;
+    border-radius: 20px;
+    border: 1px solid #444653;
+    color: #444653;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.projectArrow {
+    padding-right: 0;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.projectArrow img {
+    margin-right: 3px;
+    transform: translateX(-29px);
+    transition: .5s;
+}
+
+.projectLink:hover .projectArrow img {
+    transform: translateX(-3px);
+}
+
+.contacts {
+    max-width: 1440px;
+    margin: 150px auto 48px auto;
+
+}
+
+.contacts .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.leftSide h2 {
+    margin-bottom: 128px;
+}
+
+.contactsText div {
+    height: 107px;
+    width: 461px;
+    border-top: 1px solid #444653;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactsText div:last-child {
+    border-bottom: 1px solid #444653;
+}
+
+.firstText {
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.secondText {
+    color: #212227;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
