@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 48px auto 0 auto;
+}
+
+.back {
+    display: inline-flex;
+    padding: 28px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.003px;
+    border-radius: 50.033px;
+    border: 2px solid #009C4B;
+    background-color: transparent;
+    color: var(--Green, #009C4B);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: #fff;
+    background-color: #009C4B;
+}
+
+h1 {
+    color: #212227;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 70px;
+}
+
+.aboutmeBlocks {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.aboutmeText {
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.toContacts {
+    margin-top: 16px;
+    color: #009C4B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.slider {
+    max-width: 1440px;
+    margin: 65px auto 0 auto;
+}
+
+.experience {
+    max-width: 1440px;
+    margin: 65px auto 0 auto;
+}
+
+h2 {
+    color: #212227;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experienceBlock {
+    margin-top: 48px;
+
+}
+
+.experienceDiv {
+    padding: 40px 0;
+    border-top: 1px solid #444653;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.experienceDiv:last-child {
+    border-bottom: 1px solid #444653;
+}
+
+.leftTitle {
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.leftDate {
+    margin-top: 6px;
+    color:#A6A8B5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.rightTitle {
+    color: #212227;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+.rightCity {
+    color:#A6A8B5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.rightSpecalization {
+    margin-top: 30px;
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+}
+
+.rightDescription {
+    margin-top: 8px;
+    margin-left: 20px;
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.contacts {
+    max-width: 1440px;
+    margin: 150px auto 48px auto;
+
+}
+
+.contacts .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.leftSide h2 {
+    margin-bottom: 128px;
+}
+
+.contactsText div {
+    height: 107px;
+    width: 461px;
+    border-top: 1px solid #444653;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactsText div:last-child {
+    border-bottom: 1px solid #444653;
+}
+
+.firstText {
+    color: #212227;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.secondText {
+    color: #212227;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rightUniver {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #212227;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+.backButton2 {
+    margin-top: 72px;
+}
