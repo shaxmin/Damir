@@ -215,3 +215,12 @@ h2 {
 .backButton2 {
     margin-top: 72px;
 }
+
+.swiper {
+    max-width: 600px;
+    height: auto;
+  }
+
+ .swiper-slide img {
+    max-width: 100%;
+ }
