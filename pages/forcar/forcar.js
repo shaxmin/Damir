@@ -33,9 +33,9 @@ uiDiv.forEach(item => {
 
 tabs.forEach(item => {
     item.addEventListener('click', () => {
-
+        tabs.forEach(elem => elem.classList.remove('greenText'))
+        item.classList.add('greenText')
         content.forEach(item => item.classList.remove('is-active'))
-        // console.log(  document.querySelector(`[data-content="${item.dataset.openBlock}"]`))
         document.querySelector(`[data-content="${item.dataset.openBlock}"]`).classList.add('is-active')
 
     })
