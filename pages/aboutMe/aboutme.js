@@ -2,6 +2,7 @@
 
 
 const experienceDiv = document.querySelectorAll('.experienceDiv');
+const links = document.querySelectorAll('.toContacts')
 
 experienceDiv.forEach(item => {
     let key = item.dataset.key;
@@ -20,5 +21,18 @@ experienceDiv.forEach(item => {
                     </ul>
                 </div>
     `
-})
+});
 
+// Плавный скролл
+links.forEach(item => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault()
+        let link = e.target.getAttribute('href')
+        const elem = document.querySelector(link)
+        let top = elem.getBoundingClientRect().top
+        window.scrollTo({
+        top: top + window.scrollY - 55,
+        behavior: 'smooth'
+    })
+})
+});

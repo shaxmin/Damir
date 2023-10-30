@@ -61,11 +61,9 @@ h1 {
 }
 
 .aboutmeLink {
-    display: inline-flex;
-    padding: 28px 34px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5.003px;
     width: 245px;
     height: 78px;
     border-radius: 50.033px;
@@ -79,11 +77,17 @@ h1 {
     cursor: pointer;
     transition: 0.5s;
     text-decoration: none;
+    min-width: 163px;
 }
 
 .aboutmeLink:hover {
     background-color: #009C4B;
     color: #fff;
+}
+
+.aboutmeLink:active {
+    background: #007538;
+    border: 2px solid #007538;
 }
 
 .damir {
@@ -130,9 +134,6 @@ h2 {
 .projectLink:hover div {
     color: #009C4B;
 }
-/* .sitesTable:hover .tags div {
-    color: #009C4B;
-} */
 
 
 .project {
@@ -191,6 +192,11 @@ h2 {
     transition: .5s;
 }
 
+.projectLink:hover .tags div {
+    border: 1px solid #009C4B;
+}
+
+
 .projectArrow {
     padding-right: 0;
     display: flex;
@@ -215,26 +221,28 @@ h2 {
 }
 
 .contacts .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+
 }
 
-.leftSide h2 {
-    margin-bottom: 128px;
+/* .leftSide h2 {
+
+} */
+
+.contactsText {
+    margin-top: 120px;
 }
 
-.contactsText div {
-    height: 107px;
-    width: 461px;
+.contactsDiv {
+    width: 100%;
     border-top: 1px solid #444653;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    padding: 20px 0;
 }
 
-.contactsText div:last-child {
+.contactsDiv:last-child {
     border-bottom: 1px solid #444653;
 }
 
@@ -253,4 +261,175 @@ h2 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.rightSide {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.rightSide img {
+    width: 100%;
+}
+
+.damir img:last-child {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header, .projects, .contacts {
+        max-width: 95%;
+    }
+
+    .projectLink {
+        grid-template-areas:
+        "projectTitle projectDescription projectDescription"
+        "projectTitle tags tags";
+    }
+
+    .projectArrow {
+        position: absolute;
+        right: 0;
+    }
+
+    .projectTitle {
+        grid-area: projectTitle;
+    }
+
+    .projectDescription {
+        grid-area: projectDescription;
+    }
+
+    .tags {
+        grid-area: tags;
+    }
+
+    .projects {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .cloud {
+        width: 120px;
+        height: 60px;
+    }
+
+    .title {
+        margin-bottom: 42px;
+    }
+
+    .aboutMe p {
+        max-width: 472px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+
+    .damir {
+        margin-top: 48px;
+    }
+
+    .aboutmeLink {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .projectsHeader {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .projectsHeader p {
+        font-size: 16px;
+    }
+
+    .projectLink {
+        align-items: center;
+    }
+
+    .projectLink:hover .projectArrow img {
+        transform: translateX(0);
+    }
+
+    .contacts {
+        margin-top: 100px;
+    }
+
+    .contacts .container {
+        grid-template-columns: 1fr;
+    }
+
+    .contactsText {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
+    .damir img:first-child {
+        display: none;
+    }
+
+    .damir img:last-child {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .header {
+        margin-top: 10px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .aboutMe {
+        flex-wrap: wrap;
+    }
+
+    .aboutMe p {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .aboutmeLink {
+        margin-top: 16px;
+        width: 100%;
+    }
+
+    .projectsHeader {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
+        margin-top: 64px;
+    }
+
+    .projectsHeader p {
+        margin-top: 12px;
+    }
+
+    .project {
+        padding: 20px 0;
+    }
+
+    .projectLink {
+
+        grid-template-areas:
+        "projectTitle projectTitle projectTitle"
+        "projectDescription projectDescription projectDescription"
+        "tags tags tags";
+        grid-gap: 5px;
+        align-content: center;
+    }
+
 }

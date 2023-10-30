@@ -11,12 +11,6 @@
     <script src="data.js" defer></script>
     <script src="aboutme.js" defer></script>
     <script src="slider.js" defer></script>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
 
@@ -28,28 +22,20 @@
     <div class="aboutmeBlocks">
         <div class="aboutmeText">Меня зовут Озиол Дамир, мне 27 лет, родом из Караганды, сейчас живу в Алматы. В UX/UI дизайне нравится структурированный подход к работе, возможность влиять на продукт и выражать свое творчество.</div>
         <div></div>
-        <div>
+        <div class="aboutmeLink">
             <div class="aboutmeText">Люблю фотошопить, играть в баскетбол, ездить на велосипеде, готовить и кушать вкусную еду.</div>
-            <div class="toContacts">Контакты <img src="images/arrowDown.svg" alt="Контакты"></div>
+            <a href="#contacts" class="toContacts toContactsLink">Контакты&nbsp;<div class="toContactsLinkArrow"><img src="images/arrowDownRed.svg" alt="Контакты"><img src="images/arrowDown.svg" alt="Контакты"></div></a>
         </div>
         <div></div>
     </div>
 </header>
 
 <section class="slider">
-        <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="images/1.jpg"></div>
-        <div class="swiper-slide"><img src="images/2.jpg"></div>
-        <div class="swiper-slide"><img src="images/3.jpg"></div>
-        </div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+    <div class="container">
+        <div class="sliderDiv"></div>
+        <div class="sliderDiv"><img src="images/domik.png" alt="It's Domik"></div>
+        <div class="sliderDiv"></div>
+        <div class="sliderDiv"><img src="images/domik1.png" alt="It's Domik"></div>
     </div>
 </section>
 
@@ -64,18 +50,18 @@
     </div>
 </section>
 
-<footer class="contacts">
+<footer class="contacts" id="contacts">
     <div class="container">
         <div class="leftSide">
             <h2>Contacts</h2>
             <div class="contactsText">
-                <div>
-                    <p class="firstText">Телефон:</p>
-                    <p class="secondText">+7 778 553 89 00</p>
+                <div class="contactsDiv">
+                    <div class="firstText">Телефон:</div>
+                    <div class="secondText">+7 778 553 89 00</div>
                 </div>
-                <div>
-                    <p class="firstText">Почта:</p>
-                    <p class="secondText">ozyoldamir@gmail.com</p>
+                <div class="contactsDiv">
+                    <div class="firstText">Почта:</div>
+                    <div class="secondText">ozyoldamir@gmail.com</div>
                 </div>
             </div>
         </div>

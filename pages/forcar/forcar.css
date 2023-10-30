@@ -38,6 +38,11 @@ body {
     background-color: #009C4B;
 }
 
+.back:active {
+  background: #007538;
+  border: 2px solid #007538;
+}
+
 .topLine {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -181,4 +186,45 @@ h2 {
 
   .greenText {
     color:#009C4B;
+  }
+
+  .yellowText {
+    color:#EAB846;
+  }
+
+  .redText {
+    color:#CE3E1E;
+  }
+
+  .mobileFrame {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 48px;
+    width: 100%;
+    border-radius: 50px;
+    background: #F5F5F5;
+    padding: 53px 52px 55px 52px;
+
+  }
+
+  .mobileFrame div img {
+    width: 100%;
+
+  }
+
+  .lowFidelityBlock {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .mobileFrame {
+      flex-wrap: wrap;
+    }
+
+
+
   }

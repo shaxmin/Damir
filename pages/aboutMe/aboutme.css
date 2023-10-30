@@ -37,6 +37,11 @@ body {
     background-color: #009C4B;
 }
 
+.back:active {
+    background: #007538;
+    border: 2px solid #007538;
+}
+
 h1 {
     color: #212227;
     font-size: 70px;
@@ -67,11 +72,55 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
+    display: flex;
 }
+
+
+.toContactsLink {
+    text-decoration: none;
+    color: #009C4B;
+    transition: .5s;
+}
+
+.toContactsLink:hover {
+    color: #CE3E1E;
+}
+
+.toContactsLinkArrow {
+    /* overflow: hidden; */
+    width: 18px;
+    height: 30px;
+}
+
+.toContactsLinkArrow img {
+    transform: translate(-20px, -20px);
+}
+
+.toContactsLinkArrow img:last-child {
+    transform: translate(15px, -10px)
+}
+
+
 
 .slider {
     max-width: 1440px;
     margin: 65px auto 0 auto;
+}
+
+.slider .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sliderDiv {
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderDiv img {
+    max-height: 400px;
 }
 
 .experience {
@@ -167,21 +216,29 @@ h2 {
     align-items: start;
 }
 
-.leftSide h2 {
-    margin-bottom: 128px;
+.contacts .container {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+
 }
 
-.contactsText div {
-    height: 107px;
-    width: 461px;
+/* .leftSide h2 {
+
+} */
+
+.contactsText {
+    margin-top: 150px;
+}
+
+.contactsDiv {
+    width: 100%;
     border-top: 1px solid #444653;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    padding: 20px 0;
 }
 
-.contactsText div:last-child {
+.contactsDiv:last-child {
     border-bottom: 1px solid #444653;
 }
 
@@ -202,6 +259,10 @@ h2 {
     line-height: normal;
 }
 
+.rightSide img {
+    width: 100%;
+}
+
 .rightUniver {
     margin-top: 30px;
     margin-bottom: 5px;
@@ -215,12 +276,3 @@ h2 {
 .backButton2 {
     margin-top: 72px;
 }
-
-.swiper {
-    max-width: 600px;
-    height: auto;
-  }
-
- .swiper-slide img {
-    max-width: 100%;
- }
