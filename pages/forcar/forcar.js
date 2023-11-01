@@ -1,8 +1,8 @@
 "use strict"
 
-
 const experienceDiv = document.querySelectorAll('.infoDiv');
 const uiDiv = document.querySelectorAll('.uiDiv');
+const designDiv = document.querySelectorAll('.designDiv');
 const tabs = document.querySelectorAll('.tabs li span');
 const content = document.querySelectorAll('.content');
 
@@ -30,6 +30,13 @@ uiDiv.forEach(item => {
     `
 });
 
+designDiv.forEach(item => {
+    let key = item.dataset.key;
+    item.innerHTML = `
+    ${designData[key].block1}
+    ${designData[key].block2}
+    `
+});
 
 tabs.forEach(item => {
     item.addEventListener('click', () => {
@@ -40,3 +47,14 @@ tabs.forEach(item => {
 
     })
 });
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });

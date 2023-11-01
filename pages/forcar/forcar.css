@@ -65,6 +65,13 @@ h2 {
     line-height: normal;
 }
 
+.h2branding {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .info {
     max-width: 1440px;
     margin: 48px auto 0 auto;
@@ -230,7 +237,337 @@ h2 {
     row-gap: 15px;
   }
 
-  .lowFidelityBlock div img {
+  /* Цвет для admin panel */
+
+  .adminText {
+    color: #009C4B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .uiDesignH2 {
+    margin-bottom: 89px;
+  }
+
+  .swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    /* height: 400px; */
+  }
+
+  .swiper-slide {
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+  }
+
+  .swiper-button-prev {
+    color: green;
+  }
+
+  .designDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+  }
+/*
+  .designDiv div {
+    width: 100%;
+  } */
+
+  .designImage {
+    width: 100%;
+  }
+
+  .designImage img {
+    width: 100%;
+  }
+
+  .designSelf {
+    justify-self: end;
+  }
+
+  .designText {
+      max-width: 336px;
+  }
+
+  .preLastdesignText {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .forIphone {
+    position: relative;
+    width: 100%;
+  }
+
+  .designIphone {
+    position: absolute;
+    right: 0;
+    max-width: 136px;
+  }
+
+  .designIphone img {
+    width: 100%;
+  }
+
+
+  .designTitle {
+  color: #212227;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  }
+
+  .designDescription {
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  }
+
+  .threeRoles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #212227;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  }
+
+  .adminFrame {
+    margin-bottom: 100px;
+  }
+
+  .brandingText {
+    color: #009C4B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .brandPlatform {
+    margin-bottom: 100px;
+  }
+
+  .brandText {
+  border-radius: 40px;
+  background: #FFF;
+  max-width: 426px;
+  padding: 45px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  }
+
+  .brandAttribute {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 27px;
+    column-gap: 29px;
+  }
+
+  .attributes {
+    min-width: 428px;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53.846px; /* 168.269% */
+  }
+
+  .attribute1 {
+    background-image: url('images/branding/attribute/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .attribute2 {
+    background-image: url('images/branding/attribute/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .attribute3 {
+    background-image: url('images/branding/attribute/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .attribute4 {
+    background-image: url('images/branding/attribute/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .attribute5 {
+    background-image: url('images/branding/attribute/5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .attribute6 {
+    background-image: url('images/branding/attribute/6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .keyWordsBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .keyWordsTitle {
+  color: #909090;
+  text-align: center;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  margin-top: 106px;
+  }
+
+  .keyWords {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    column-gap: 95px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .keyWordsAlone {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .gray {
+    color: #C7C7C7;
+  }
+
+  .green {
+    color: #178C23;
+    font-weight: 700;
+  }
+
+  .components {
+    margin-top: 120px;
+  }
+
+  .componentsBlock {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+  }
+
+  .componentsSquare {
+    display: flex;
+    width: 250px;
+    height: 252px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 28px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 2px solid #F0F0F0;
+  }
+
+  .plus {
+  color: #C7C7C7;
+  text-align: center;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  }
+
+  .componentsText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 203px;
+  }
+
+  .structure {
+    margin-top: 253px;
+  }
+
+  .structureLogos {
+    margin-top: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 269px;
+  }
+
+  .brandingLogos {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brandingImages {
+    max-width: 480px;
+  }
+
+  .brandingImages img {
     width: 100%;
   }
 

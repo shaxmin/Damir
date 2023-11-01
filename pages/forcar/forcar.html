@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forcar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="forcar.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="forcar.js" defer></script>
     <script src="data.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
 </head>
 <body>
 
@@ -82,20 +90,197 @@
         </div>
         <div class="content" data-content="admin-panel">
             <div class="admin-panel">
-                <div class="mobileText">Admin panel</div>
+                <div class="adminText">Admin panel</div>
                 <h2>Low fidelity</h2>
                 <div class="lowFidelityBlock">
-                    <div><img src="images/adminPanel/lowFidelity/1.png" alt=""></div>
-                    <div><img src="images/adminPanel/lowFidelity/2.png" alt=""></div>
-                    <div><img src="images/adminPanel/lowFidelity/3.png" alt=""></div>
-                    <div><img src="images/adminPanel/lowFidelity/4.png" alt=""></div>
-                    <div><img src="images/adminPanel/lowFidelity/5.png" alt=""></div>
+                    <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="images/adminPanel/lowFidelity/1.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/adminPanel/lowFidelity/2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/adminPanel/lowFidelity/3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/adminPanel/lowFidelity/4.png" alt=""></div>
+                            <div class="swiper-slide"><img src="images/adminPanel/lowFidelity/5.png" alt=""></div>
+
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                </div>
+                <div class="adminText">Admin panel</div>
+                <h2 class="uiDesignH2">Ui design</h2>
+                <div class="designBlock">
+                    <div class="designDiv" data-key="one"></div>
+                    <div class="designDiv" data-key="two"></div>
+                    <div class="designDiv" data-key="three"></div>
+                    <div class="designDiv" data-key="four"></div>
+                    <div class="designDiv" data-key="five"></div>
+                    <div class="designDiv" data-key="six"></div>
+                    <div class="designDiv" data-key="seven"></div>
+                    <div class="designDiv" data-key="eight"></div>
+                    <div class="designDiv" data-key="nine"></div>
+                    <div class="designDiv" data-key="ten"></div>
+                    <div class="designDiv" data-key="eleven"></div>
+                    <div class="designDiv" data-key="twelve"></div>
+                    <div class="designDiv" data-key="thirteen"></div>
+                    <div class="designDiv" data-key="fourteen"></div>
+                    <div class="designDiv" data-key="fifteen"></div>
+                    <div class="designDiv" data-key="sixteen"></div>
+                    <div class="designDiv" data-key="seventeen"></div>
+                </div>
+                <div class="threeRoles">
+                    <div>3 роли доступа</div>
+                    <div>40+ страниц</div>
+                </div>
+                <div class="mobileFrame adminFrame">
+                    <div><img src="images/uiDesign/roles/1.png" alt=""></div>
+                    <div><img src="images/uiDesign/roles/2.png" alt=""></div>
+                    <div><img src="images/uiDesign/roles/3.png" alt=""></div>
+                </div>
+                <div class="adminText">Admin panel</div>
+                <h2 class="uiDesignH2">Ui Kit</h2>
+                <div class="mobileFrame adminFrame">
+                    <div><img src="images/uiDesign/uikit/1.png" alt=""></div>
+                    <div><img src="images/uiDesign/uikit/2.png" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="content" data-content="branding">
-            <div class="branding">Branding</div>
+            <div class="brandingText">Branding</div>
+            <h2 class="h2branding">Бренд платформа</h2>
+            <div class="mobileFrame brandPlatform">
+                <div><img src="images/branding/covers.png" alt=""></div>
+                <div class="brandText">Бренд платформа - это совокупность смыслов, которые формируют образ компании. <br>Здесь я рассказал о болях которые решает компания, преимуществах, целях, миссии компании. Определил характер, прописал посыл и слоган, и собрал образ бренда.</div>
+            </div>
+            <div class="brandingText">Branding</div>
+            <h2 class="h2branding">Характер бренда</h2>
+            <div class="brandAttribute">
+                <div class="attributes attribute1">Целеустремленный</div>
+                <div class="attributes attribute2">Инновационный</div>
+                <div class="attributes attribute3">Смелый</div>
+                <div class="attributes attribute4">Надежный</div>
+                <div class="attributes attribute5">Дружелюбный</div>
+                <div class="attributes attribute6">Любопытный</div>
+            </div>
+
+                <div class="keyWordsTitle">КЛЮЧЕВЫЕ СЛОВА</div>
+                <div class="keyWordsBlock">
+                    <div class="keyWords">
+                        <div class="keyWordsAlone gray">кузов</div>
+                        <div class="keyWordsAlone green">сервис</div>
+                        <div class="keyWordsAlone gray">забота</div>
+                        <div class="keyWordsAlone green">услуги</div>
+                        <div class="keyWordsAlone gray">движение</div>
+                        <div class="keyWordsAlone green">энергия</div>
+                        <div class="keyWordsAlone gray">уважение</div>
+                        <div class="keyWordsAlone green">качество</div>
+                        <div class="keyWordsAlone gray">время</div>
+                        <div class="keyWordsAlone green">скорость</div>
+                        <div class="keyWordsAlone green">рост</div>
+                        <div class="keyWordsAlone gray">стремление</div>
+                        <div class="keyWordsAlone green">доверие</div>
+                        <div class="keyWordsAlone gray">колесо</div>
+                        <div class="keyWordsAlone green">машина</div>
+                        <div class="keyWordsAlone gray">развитие</div>
+                        <div class="keyWordsAlone green">культура</div>
+                        <div class="keyWordsAlone gray">насыщенность</div>
+                        <div class="keyWordsAlone green">надежность</div>
+                        <div class="keyWordsAlone gray">Алматы</div>
+                        <div class="keyWordsAlone green">прозрачность</div>
+                    </div>
+                </div>
+            <div class="brandingText components">Branding</div>
+            <h2 class="h2branding">Компоненты логотипа</h2>
+            <div class="componentsBlock">
+                <div class="componentsSquare">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="62" height="66" viewBox="0 0 62 66" fill="none">
+                        <path d="M13.5703 30.9064C13.5703 26.4609 15.4065 22.1974 18.675 19.054C21.9435 15.9105 26.3765 14.1445 30.9989 14.1445C35.6212 14.1445 40.0543 15.9105 43.3227 19.054C46.5912 22.1974 48.4275 26.4609 48.4275 30.9064H13.5703Z" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+                        <path d="M22.2852 43.4766V47.667" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.75 56.0469V60.2374" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M31 56.0469V60.2374" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M46.25 56.0469V60.2374" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M39.7129 43.4766V47.667" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M30.998 14.1427V5.76172" stroke="#D5D5D5" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+                        </svg></div>
+                        <div class="componentsText">Вода<br>
+                            (прозрачность<br>
+                            отношений)</div>
+                </div>
+                <div class="plus">+</div>
+                <div class="componentsSquare">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <path d="M20.7383 69.092V10.9102H59.261V21.0522H33.0394V34.9158H56.7042V45.0579H33.0394V69.092H20.7383Z" fill="#D5D5D5"/>
+                      </svg></div>
+                      <div class="componentsText">Буква F</div>
+                </div>
+                <div class="plus">+</div>
+                <div class="componentsSquare">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="48" height="54" viewBox="0 0 48 54" fill="none">
+                        <g clip-path="url(#clip0_102_30942)">
+                          <path d="M24.0006 27.0019C30.0264 27.0019 34.9113 22.1055 34.9113 16.0654C34.9113 10.0253 30.0264 5.12891 24.0006 5.12891C17.9747 5.12891 13.0898 10.0253 13.0898 16.0654C13.0898 22.1055 17.9747 27.0019 24.0006 27.0019Z" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M44.7482 48.8734C43.3388 44.4681 40.5701 40.6252 36.8414 37.8987C33.1127 35.1723 28.6165 33.7031 24.001 33.7031C19.3856 33.7031 14.8894 35.1723 11.1607 37.8987C7.43196 40.6252 4.66331 44.4681 3.25391 48.8734H44.7482Z" stroke="#D5D5D5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_102_30942">
+                            <rect width="47" height="53" fill="white" transform="translate(0.5 0.5)"/>
+                          </clipPath>
+                        </defs>
+                      </svg></div>
+                      <div class="componentsText">Плечо</div>
+                    </div>
+                </div>
+            <div class="brandingText components">Branding</div>
+            <h2 class="h2branding">Логотип</h2>
+            <div class="logo"><img src="images/branding/logo.svg" alt=""></div>
+
+            <div class="brandingText structure">Branding</div>
+            <h2 class="h2branding">Cтруктура символа и логотипа</h2>
+
+            <div class="structureLogos">
+                <div class="structureLogo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="256" height="254" viewBox="0 0 256 254" fill="none">
+                        <path d="M104.24 105.442H136.921V143.127H129.103C114.717 143.127 103.042 154.802 103.042 169.188V177.006H65.3574V169.188C65.3574 150.007 73.8533 132.807 87.3008 121.079H65.3574V113.261C65.3574 78.1306 93.9724 49.5156 129.103 49.5156H136.921V87.1998H129.103C117.427 87.1998 107.576 94.9139 104.24 105.442Z" fill="#DEDEDE"/>
+                        <path d="M103.033 202.899C103.033 197.185 103.033 183.751 103.033 175.73C103.033 165.703 104.004 143.062 130.849 143.062C152.325 143.062 162.87 143.062 165.457 143.062" stroke="#37454E" stroke-width="0.363417" stroke-dasharray="4.36 4.36"/>
+                        <path d="M103.033 146.817C103.033 141.103 103.033 127.669 103.033 119.648C103.033 109.621 104.004 86.9805 130.849 86.9805C152.325 86.9805 162.87 86.9805 165.457 86.9805" stroke="#37454E" stroke-width="0.363417" stroke-dasharray="4.36 4.36"/>
+                        <path d="M131.67 177.006C168.294 177.006 197.983 148.466 197.983 113.261C197.983 78.0553 168.294 49.5156 131.67 49.5156C95.0467 49.5156 65.3574 78.0553 65.3574 113.261C65.3574 148.466 95.0467 177.006 131.67 177.006Z" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M131.67 233.022C168.294 233.022 197.983 204.482 197.983 169.276C197.983 134.071 168.294 105.531 131.67 105.531C95.0467 105.531 65.3574 134.071 65.3574 169.276C65.3574 204.482 95.0467 233.022 131.67 233.022Z" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M136.922 0L136.922 2.06644" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M136.922 6.15625L136.922 249.376" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M136.922 251.414L136.922 253.481" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M255.697 120.973L253.631 120.973" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M249.543 120.973L6.32296 120.973" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M4.28125 120.973L2.2148 120.973" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M253.631 105.535L251.564 105.535" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M247.477 105.535L4.25655 105.535" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M2.21484 105.535L0.148389 105.535" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M253.631 177.012L251.564 177.012" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M247.477 177.012L4.25655 177.012" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        <path d="M2.21484 177.012L0.148389 177.012" stroke="#37454E" stroke-width="0.363417" stroke-miterlimit="10" stroke-dasharray="4.36 4.36"/>
+                        </svg>
+                </div>
+                <div class="structureLogo">
+                    <img src="images/branding/logomath.svg" alt="">
+                </div>
+            </div>
+
+            <div class="brandingText structure">Branding</div>
+            <h2 class="h2branding">Cтруктура символа и логотипа</h2>
+
+            <div class="brandingLogos">
+                <div class="brandingImages"><img src="images/branding/brandColor/1.jpg" alt=""></div>
+                <div class="brandingImages"><img src="images/branding/brandColor/2.jpg" alt=""></div>
+                <div class="brandingImages"><img src="images/branding/brandColor/3.jpg" alt=""></div>
+                <div class="brandingImages"><img src="images/branding/brandColor/4.jpg" alt=""></div>
+                <div class="brandingImages"><img src="images/branding/brandColor/5.jpg" alt=""></div>
+                <div class="brandingImages"><img src="images/branding/brandColor/6.jpg" alt=""></div>
+            </div>
+
         </div>
+
 
     </section>
 

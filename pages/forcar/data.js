@@ -135,3 +135,179 @@ const uiData = {
         block4: '<img src="../forcar/images/mobile/11/3.png">'
     },
 }
+
+const designData = {
+    one: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/1.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Вход в админку</div>
+        <div class="designDescription">Зарегистрироваться в админке может любой желающий, но пользоваться смогут лишь те компании что заключили договор и прошли модерацию.</div>
+        </div>
+        `
+    },
+
+    two: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Главная</div>
+        <div class="designDescription">При первом входе пользователь видит пустое стояние админки и в правом верхнем углу кнопку регистрации компании.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/2.png"></div>'
+    },
+
+    three: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/3.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Регистрация компании. <br>1 этап</div>
+        <div class="designDescription">Регистрация компании состоит из 5 шагов. 1 шаг - ввести основную информацию о компании: название, логотип, город, адрес, количество боксов и т.д.</div>
+        </div>
+        `
+    },
+
+    four: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Добавление услуг. 2 этап</div>
+        <div class="designDescription">Нужно выбрать услуги которые предостовляет автомойка и прописать свои цены. Так как цена на одну и ту же услугу для разных кузовов отличается, было принято решение разделить кузовы и дать возможность прописывать разные цены на услуги в зависимости от кузова машины.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/4.png"></div>'
+    },
+
+    five: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/5.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Добавление удобств.<br>3 этап</div>
+        <div class="designDescription">Регистрация компании состоит из 5 шагов. 1 шаг - ввести основную информацию о компании: название, логотип, город, адрес, количество боксов и т.д.</div>
+        </div>
+        `
+    },
+
+    six: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Реквизиты. 4 этап</div>
+        <div class="designDescription">На 4 этапе нужно ввести БИН компании, ФИО руководителя, номер договора заключенного с компанией Forcar и т.д.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/6.png"></div>'
+    },
+
+    seven: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/7.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Предпросмотр. 5 этап</div>
+        <div class="designDescription">На последнем этапе пользователь может проверить введеные ранее им данные и завершить регистрацию.</div>
+        </div>
+        `
+    },
+
+    eight: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Главная, Записи</div>
+        <div class="designDescription">После того как компания пройдет модерацию, она появляется в приложении и может получать заявки. Они появляются на главной странице. Каждый день первым этапом админ указывает количество работающих сегодня боксов.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/8.png"></div>'
+    },
+
+    nine: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/9.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Новая запись</div>
+        <div class="designDescription">Помимо заявок которые приходят с приложения админ может добавлять заявки пришедшие из других источников. Этап добавления заявки идентичный мобильному.</div>
+        </div>
+        `
+    },
+
+    ten: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Отчеты</div>
+        <div class="designDescription">На странице отчетов отображаются все заявки за определенный период. Также справа есть небольшая статистика по заявкам.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/10.png"></div>'
+    },
+
+    eleven: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/11.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Клиенты</div>
+        <div class="designDescription">В админке есть база данных клиентов (пользователей приложения) в которй админ может увидеть всю информацию о клиентах и их операции.</div>
+        </div>
+        `
+    },
+
+    twelve: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Отзывы клиентов</div>
+        <div class="designDescription">Так же админ видит все отзывы которые оставляют клиенты. Может прочитать каждый из них и при надобности ответить на комментарий.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/12.png"></div>'
+    },
+
+    thirteen: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/13.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Аналитика</div>
+        <div class="designDescription">На данной странице отображается общая аналитика на опреденый период, которую можно скачать в формате Excel. Фильтр для точек. Админ видит: оборот компании, количество завершенных моек, средний чек, график оборота, услугу которой часто пользуются, доход на одного гостя, график посещяемости и сумму выплат компании Forcar.</div>
+        </div>
+        `
+    },
+
+    fourteen: {
+        block1: `
+        <div class="designText">
+        <div class="designTitle">Личные данные</div>
+        <div class="designDescription">При надобности админ может изменить личные данные.</div>
+        </div>
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/14.png"></div>'
+    },
+
+    fifteen: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/15.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Автомойки</div>
+        <div class="designDescription">На странице “Автомойки” отображаются все точки автомоек данной компании и есть возможность добавить новую.</div>
+        </div>
+        `
+    },
+
+    sixteen: {
+        block1: `
+        <div class="designText preLastdesignText forIphone">
+            <div class="">
+                <div class="designTitle">Акции</div>
+                <div class="designDescription a">Все акции отображаются на личной странице автомойки в приложении. Так же есть возможность продвинуть свои акции в топ, для того что бы их видели все пользователи приложения в данном городе. Акций в топе всего 3 и за возможность отображаться в них автомойка отправляет заявку и договаривается с компание Forcar на определенный срок.</div>
+            </div>
+                <div class="designIphone"><img src="../forcar/images/uiDesign/iphone.png"></div>
+        </div>
+
+        `,
+        block2: '<div class="designImage"><img src="../forcar/images/uiDesign/16.png"></div>'
+    },
+
+    seventeen: {
+        block1: '<div class="designImage fullOneHundred"><img src="../forcar/images/uiDesign/17.png"></div>',
+        block2: `
+        <div class="designText designSelf">
+        <div class="designTitle">Сотрудники компании</div>
+        <div class="designDescription">На данной странице видны все сотрудники и их статусы. Админ может изменить статусы или удалить сотрудника.</div>
+        </div>
+        `
+    },
+}
