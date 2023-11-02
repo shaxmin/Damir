@@ -5,6 +5,7 @@ const uiDiv = document.querySelectorAll('.uiDiv');
 const designDiv = document.querySelectorAll('.designDiv');
 const tabs = document.querySelectorAll('.tabs li span');
 const content = document.querySelectorAll('.content');
+const links = document.querySelectorAll('.toTop');
 
 experienceDiv.forEach(item => {
     let key = item.dataset.key;
@@ -58,3 +59,17 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
   });
+
+  // Плавный скролл
+links.forEach(item => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault()
+        let link = e.target.getAttribute('href')
+        const elem = document.querySelector(link)
+        let top = elem.getBoundingClientRect().top
+        window.scrollTo({
+        top: top + window.scrollY - 55,
+        behavior: 'smooth'
+    })
+})
+});

@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Forcar" clip-path="url(#clip0_31_4163)">
+<rect width="1440" height="33317" transform="translate(-1334 -33195)" fill="white"/>
+<g id="button">
+<g id="SWM icons / outline / arrow-up">
+<path id="shape" d="M12 4L12 20M12 4L18 10M12 4L6 10" stroke="#009C4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="-33" y="-27" width="90" height="78" rx="39" stroke="#009C4B" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_31_4163">
+<rect width="1440" height="33317" fill="white" transform="translate(-1334 -33195)"/>
+</clipPath>
+</defs>
+</svg>
