@@ -1,7 +1,7 @@
 const data = {
     1: {
         leftTitle: 'Инфо',
-        rightList: `<span class="rightList">Zimran - международная компаниия по производству ИТ-продуктов.</span>`
+        rightList: `<span class="rightList rightListMobile">Zimran - международная компаниия по производству ИТ-продуктов.</span>`
     },
 
     2: {

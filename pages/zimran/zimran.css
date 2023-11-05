@@ -174,3 +174,109 @@ h2 {
   .bottomBack {
     margin-bottom: 0;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .header, .info, .website, .footer {
+      max-width: 95%;
+  }
+
+  .leftLaptops, .rightLaptops {
+    grid-template-columns: 2fr 0 2fr;
+    margin-bottom: 40px;
+  }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .topTitle {
+      flex-direction: column;
+      align-items: stretch;
+      row-gap: 20px;
+    }
+
+    .link {
+      width: 100%;
+    }
+
+    .leftLaptops, .rightLaptops {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "B"
+      "A"
+      ;
+      row-gap: 30px;
+    }
+
+    .A {
+      grid-area: A;
+    }
+
+    .B {
+      grid-area: B;
+    }
+  }
+
+  @media only screen and (max-width: 577px) {
+
+    .back {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+
+    .topLine img {
+      width: 117px;
+      height: 24px;
+    }
+
+    .infoDiv {
+      grid-template-columns: 1fr;
+      row-gap: 12px;
+      padding: 20px 0;
+    }
+
+    .leftTitle {
+      font-size: 18px;
+    }
+
+    .rightList {
+      font-size: 14px;
+      margin-left: 18px;
+    }
+
+    .rightListMobile {
+      margin-left: 0;
+    }
+
+    .mobileText {
+      font-size: 14px;
+    }
+
+    .website {
+      margin-top: 64px;
+    }
+
+    .laptops {
+      margin-top: 0;
+    }
+
+    .title {
+      font-size: 18px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .footerButtons {
+      flex-direction: column-reverse;
+    }
+  }
