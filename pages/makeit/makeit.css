@@ -121,8 +121,34 @@ h2 {
     margin-bottom: 0;
   }
 
+  .click {
+    width: 100%;
+    margin-top: 40px;
+  }
+
   .laptop img {
     width: 100%;
+  }
+
+  .landing {
+    text-align: center;
+    background: #F9F9F9;
+    padding: 80px 0;
+  }
+
+  .landing img {
+    width: 80%;
+
+  }
+
+  .mobileRight {
+    text-align: right;
+  }
+
+
+
+  .mobile img {
+    max-height: 290px;
   }
 
   .laptops {
@@ -141,6 +167,7 @@ h2 {
     grid-template-columns: 1fr 1fr 2fr;
     align-items: center;
     margin-bottom: 140px;
+    margin-top: 140px;
   }
 
   .title {
@@ -174,3 +201,114 @@ h2 {
   .bottomBack {
     margin-bottom: 0;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .header, .info, .website, .footer {
+      max-width: 95%;
+  }
+
+  .leftLaptops, .rightLaptops {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "AAA BBB"
+    "CCC CCC"
+    ;
+    row-gap: 30px;
+  }
+
+  .AAA {
+    grid-area: AAA;
+  }
+
+  .BBB {
+    grid-area: BBB;
+  }
+
+  .CCC {
+    grid-area: CCC;
+  }
+
+  .click {
+    margin-top: 32px;
+  }
+
+  .mobile {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+
+  .back {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .topLine {
+    grid-template-columns: 2fr 0 0 2fr;
+  }
+
+  .logo {
+    text-align: right;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .topLine img {
+    width: 117px;
+    height: 24px;
+  }
+
+  .infoDiv {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+    padding: 20px 0;
+  }
+
+  .leftTitle {
+    font-size: 18px;
+  }
+
+  .rightList {
+    font-size: 14px;
+    margin-left: 18px;
+  }
+
+  .rightListMobile {
+    margin-left: 0;
+  }
+
+  .mobileText {
+    font-size: 14px;
+  }
+
+  .mobile img {
+    max-height: 149px;
+  }
+
+  .website {
+    margin-top: 64px;
+  }
+
+  .laptops {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .footerButtons {
+    flex-direction: column-reverse;
+  }
+}
