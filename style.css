@@ -1,231 +1,222 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
 
 .header {
-    max-width: 1440px;
-    margin: 48px auto 0 auto;
+  max-width: 1440px;
+  margin: 48px auto 0 auto;
 }
 
-
 .title {
-    display: inline-flex;
-    margin-bottom: 48px;
+  display: inline-flex;
+  margin-bottom: 48px;
 }
 
 h1 {
-    max-width: 1035px;
-    color: #212227;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  max-width: 1035px;
+  color: #212227;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .cloud {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .cloudText {
-    top: 26.52px;
-    left: 28px;
-    position: absolute;
-    color: #FFF;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    transform: rotate(-3.772deg);
+  top: 26.52px;
+  left: 28px;
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transform: rotate(-3.772deg);
 }
 
 .aboutMe {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutMe p {
-    width: 535px;
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
+  width: 535px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
 }
 
 .aboutmeLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 245px;
-    height: 78px;
-    border-radius: 50.033px;
-    border: 2px solid #009C4B;
-    background-color: transparent;
-    color: #009C4B;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    transition: 0.5s;
-    text-decoration: none;
-    min-width: 163px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 78px;
+  border-radius: 50.033px;
+  border: 2px solid #009c4b;
+  background-color: transparent;
+  color: #009c4b;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  min-width: 163px;
 }
 
 .aboutmeLink:hover {
-    background-color: #009C4B;
-    color: #fff;
+  background-color: #009c4b;
+  color: #fff;
 }
 
 .aboutmeLink:active {
-    background: #007538;
-    border: 2px solid #007538;
+  background: #007538;
+  border: 2px solid #007538;
 }
 
 .damir {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .damir img {
-    width: 100%;
+  width: 100%;
 }
 
 .projects {
-    max-width: 1440px;
-    margin: 120px auto 0 auto;
+  max-width: 1440px;
+  margin: 120px auto 0 auto;
 }
 
 .projectsHeader {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
 
 h2 {
-    color: #212227;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #212227;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .projectsHeader p {
-    width: 277px;
-    color: #444653;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  width: 277px;
+  color: #444653;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .sitesTable {
-    margin-top: 48px;
-    border-bottom: 1px solid #444653;;
+  margin-top: 48px;
+  border-bottom: 1px solid #444653;
 }
 
 .projectLink:hover div {
-    color: #009C4B;
+  color: #009c4b;
 }
 
-
 .project {
-    border-top: 1px solid #444653;
-
+  border-top: 1px solid #444653;
 }
 
 .projectLink {
-    height: 93px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 21px;
-    text-decoration: none;
+  height: 93px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 21px;
+  text-decoration: none;
 }
 
 .projectTitle {
-    color: #212227;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    transition: .5s;
+  color: #212227;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 150%; */
+  transition: 0.5s;
 }
 
 .projectDescription {
-    color: #212227;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    transition: .5s;
+  color: #212227;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.5s;
 }
 
 .tags {
-    display: flex;
-
+  display: flex;
 }
 
 .tags div {
-    /* width: 106px; */
-    padding: 0 10px;
-    height: 33px;
-    border-radius: 20px;
-    border: 1px solid #444653;
-    color: #444653;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-right: 8px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
+  /* width: 106px; */
+  padding: 0 10px;
+  height: 33px;
+  border-radius: 20px;
+  border: 1px solid #444653;
+  color: #444653;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
 }
 
 .projectLink:hover .tags div {
-    border: 1px solid #009C4B;
+  border: 1px solid #009c4b;
 }
 
-
 .projectArrow {
-    padding-right: 0;
-    display: flex;
-    overflow: hidden;
-
+  padding-right: 0;
+  display: flex;
+  overflow: hidden;
 }
 
 .projectArrow img {
-    margin-right: 3px;
-    transform: translateX(-29px);
-    transition: .5s;
+  margin-right: 3px;
+  transform: translateX(-29px);
+  transition: 0.5s;
 }
 
 .projectLink:hover .projectArrow img {
-    transform: translateX(-3px);
+  transform: translateX(-3px);
 }
 
 .contacts {
-    max-width: 1440px;
-    margin: 150px auto 48px auto;
-
+  max-width: 1440px;
+  margin: 150px auto 48px auto;
 }
 
 .contacts .container {
-    display: grid;
-    /* align-items: center; */
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
 }
 
 /* .leftSide h2 {
@@ -233,203 +224,207 @@ h2 {
 } */
 
 .contactsText {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .contactsDiv {
-    width: 100%;
-    border-top: 1px solid #444653;
-    padding: 20px 0;
+  width: 100%;
+  border-top: 1px solid #444653;
+  padding: 20px 0;
 }
 
 .contactsDiv:last-child {
-    border-bottom: 1px solid #444653;
+  border-bottom: 1px solid #444653;
 }
 
 .firstText {
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 8px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 8px;
 }
 
 .secondText {
-    color: #212227;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #212227;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .rightSide {
-    display: flex;
-    justify-content: center;
-    align-self: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .rightSide img {
-    width: 100%;
+  width: 100%;
 }
 
 .damir img:last-child {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
+  .header,
+  .projects,
+  .contacts {
+    max-width: 95%;
+  }
 
-    .header, .projects, .contacts {
-        max-width: 95%;
-    }
+  .projectLink {
+    grid-template-areas:
+      "projectTitle projectDescription projectDescription"
+      "projectTitle tags tags";
+  }
 
-    .projectLink {
-        grid-template-areas:
-        "projectTitle projectDescription projectDescription"
-        "projectTitle tags tags";
-    }
+  .projectArrow {
+    position: absolute;
+    right: 0;
+  }
 
-    .projectArrow {
-        position: absolute;
-        right: 0;
-    }
+  .projectTitle {
+    grid-area: projectTitle;
+  }
 
-    .projectTitle {
-        grid-area: projectTitle;
-    }
+  .projectDescription {
+    grid-area: projectDescription;
+  }
 
-    .projectDescription {
-        grid-area: projectDescription;
-    }
+  .tags {
+    grid-area: tags;
+  }
 
-    .tags {
-        grid-area: tags;
-    }
+  .projects {
+    margin-top: 100px;
+  }
 
-    .projects {
-        margin-top: 100px;
-    }
+  h1 {
+    font-size: 50px;
+  }
 
-    h1 {
-        font-size: 50px;
-    }
+  .cloud {
+    width: 120px;
+    height: 60px;
+  }
 
-    .cloud {
-        width: 120px;
-        height: 60px;
-    }
+  .title {
+    margin-bottom: 42px;
+  }
 
-    .title {
-        margin-bottom: 42px;
-    }
+  .aboutMe p {
+    max-width: 472px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
 
-    .aboutMe p {
-        max-width: 472px;
-        padding-right: 30px;
-        font-size: 16px;
-    }
+  .damir {
+    margin-top: 48px;
+  }
 
-    .damir {
-        margin-top: 48px;
-    }
+  .aboutmeLink {
+    font-size: 16px;
+  }
 
-    .aboutmeLink {
-        font-size: 16px;
-    }
+  h2 {
+    font-size: 40px;
+  }
 
-    h2 {
-        font-size: 40px;
-    }
+  .projectsHeader {
+    grid-template-columns: 1fr 2fr;
+  }
 
-    .projectsHeader {
-        grid-template-columns: 1fr 2fr;
-    }
+  .projectsHeader p {
+    font-size: 16px;
+  }
 
-    .projectsHeader p {
-        font-size: 16px;
-    }
+  .projectLink {
+    height: auto;
+    padding: 20px 0;
+    row-gap: 10px;
+  }
 
-    .projectLink {
-        align-items: center;
-    }
+  .projectLink:hover .projectArrow img {
+    transform: translateX(-29px);
+  }
 
-    .projectLink:hover .projectArrow img {
-        transform: translateX(0);
-    }
+  .contacts {
+    margin-top: 100px;
+  }
 
-    .contacts {
-        margin-top: 100px;
-    }
+  .contacts .container {
+    grid-template-columns: 1fr;
+  }
 
-    .contacts .container {
-        grid-template-columns: 1fr;
-    }
+  .contactsText {
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
 
-    .contactsText {
-        margin-top: 32px;
-        margin-bottom: 40px;
-    }
+  .damir img:first-child {
+    display: none;
+  }
 
-    .damir img:first-child {
-        display: none;
-    }
-
-    .damir img:last-child {
-        display: block;
-    }
+  .damir img:last-child {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 620px) {
+  .header {
+    margin-top: 10px;
+  }
 
-    .header {
-        margin-top: 10px;
-    }
+  .title {
+    margin-bottom: 20px;
+  }
 
-    .title {
-        margin-bottom: 20px;
-    }
+  h1 {
+    font-size: 40px;
+  }
 
-    h1 {
-        font-size: 40px;
-    }
+  .aboutMe {
+    flex-wrap: wrap;
+  }
 
-    .aboutMe {
-        flex-wrap: wrap;
-    }
+  .aboutMe p {
+    max-width: 100%;
+    padding: 0;
+  }
 
-    .aboutMe p {
-        max-width: 100%;
-        padding: 0;
-    }
+  .aboutmeLink {
+    margin-top: 16px;
+    width: 100%;
+  }
 
-    .aboutmeLink {
-        margin-top: 16px;
-        width: 100%;
-    }
+  .projectsHeader {
+    grid-template-columns: 1fr;
+  }
 
-    .projectsHeader {
-        grid-template-columns: 1fr;
-    }
+  .projects {
+    margin-top: 64px;
+  }
 
-    .projects {
-        margin-top: 64px;
-    }
+  .projectsHeader p {
+    margin-top: 12px;
+  }
 
-    .projectsHeader p {
-        margin-top: 12px;
-    }
+  /* .project {
+    padding: 20px 0;
+  } */
 
-    .project {
-        padding: 20px 0;
-    }
+  .projectLink {
+    grid-template-areas:
+      "projectTitle projectTitle projectTitle"
+      "projectDescription projectDescription projectDescription"
+      "tags tags tags";
+    row-gap: 10px;
+    align-content: center;
+  }
 
-    .projectLink {
-
-        grid-template-areas:
-        "projectTitle projectTitle projectTitle"
-        "projectDescription projectDescription projectDescription"
-        "tags tags tags";
-        grid-gap: 5px;
-        align-content: center;
-    }
-
+  .tags div {
+    font-size: 12px;
+  }
 }

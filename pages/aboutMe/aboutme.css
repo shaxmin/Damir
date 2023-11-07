@@ -1,227 +1,274 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
-    max-width: 1440px;
-    margin: 48px auto 0 auto;
+  max-width: 1440px;
+  margin: 48px auto 0 auto;
 }
 
 .back {
-    display: inline-flex;
-    padding: 28px 34px;
-    justify-content: center;
-    align-items: center;
-    gap: 5.003px;
-    border-radius: 50.033px;
-    border: 2px solid #009C4B;
-    background-color: transparent;
-    color: var(--Green, #009C4B);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    transition: .5s;
-    text-decoration: none;
+  display: inline-flex;
+  padding: 28px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.003px;
+  border-radius: 50.033px;
+  border: 2px solid #009c4b;
+  background-color: transparent;
+  color: var(--Green, #009c4b);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 .back:hover {
-    color: #fff;
-    background-color: #009C4B;
+  color: #fff;
+  background-color: #009c4b;
 }
 
 .back:active {
-    background: #007538;
-    border: 2px solid #007538;
+  background: #007538;
+  border: 2px solid #007538;
 }
 
 h1 {
-    color: #212227;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-top: 70px;
+  color: #212227;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 70px;
 }
 
 .aboutmeBlocks {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .aboutmeText {
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 336px;
 }
 
 .toContacts {
-    margin-top: 16px;
-    color: #009C4B;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-    display: flex;
+  margin-top: 16px;
+  color: #009c4b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  display: flex;
 }
 
-
 .toContactsLink {
-    text-decoration: none;
-    color: #009C4B;
-    transition: .5s;
+  text-decoration: none;
+  color: #009c4b;
+  transition: 0.5s;
 }
 
 .toContactsLink:hover {
-    color: #CE3E1E;
+  color: #ce3e1e;
 }
 
 .toContactsLinkArrow {
-    /* overflow: hidden; */
-    width: 18px;
-    height: 30px;
+  overflow: hidden;
+  width: 18px;
+  height: 30px;
 }
 
 .toContactsLinkArrow img {
-    transform: translate(-20px, -20px);
+  transform: translate(-20px, -20px);
+  transition: 0.5s;
+}
+
+.toContactsLink:hover .toContactsLinkArrow img {
+  transform: translate(0, 0px);
 }
 
 .toContactsLinkArrow img:last-child {
-    transform: translate(15px, -10px)
+  transform: translate(0, -27px);
+  transition: 0.5s;
 }
 
-
+.toContactsLink:hover .toContactsLinkArrow img:last-child {
+  transform: translate(20px, -10px);
+}
 
 .slider {
-    max-width: 1440px;
-    margin: 65px auto 0 auto;
+  max-width: 1440px;
+  margin: 65px auto 0 auto;
 }
 
 .slider .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: end;
 }
 
 .sliderDiv {
-    max-height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  max-width: 336px;
 }
 
 .sliderDiv img {
-    max-height: 400px;
+  width: 336px;
+}
+
+.swiper {
+  width: 336px;
+  height: 400px;
+}
+
+.swiper-slide {
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.swiper-button-next {
+  color: #fff;
+}
+
+.swiper-button-next-2 {
+  padding: 28px 34px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  z-index: 5;
+  cursor: pointer;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.swiper-button-next-2:hover {
+  background: #fff;
+  color: #212227;
 }
 
 .experience {
-    max-width: 1440px;
-    margin: 65px auto 0 auto;
+  max-width: 1440px;
+  margin: 65px auto 0 auto;
 }
 
 h2 {
-    color: #212227;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #212227;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .experienceBlock {
-    margin-top: 48px;
-
+  margin-top: 48px;
 }
 
 .experienceDiv {
-    padding: 40px 0;
-    border-top: 1px solid #444653;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  padding: 40px 0;
+  border-top: 1px solid #444653;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 .experienceDiv:last-child {
-    border-bottom: 1px solid #444653;
+  border-bottom: 1px solid #444653;
 }
 
 .leftTitle {
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .leftDate {
-    margin-top: 6px;
-    color:#A6A8B5;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  margin-top: 6px;
+  color: #a6a8b5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .rightTitle {
-    color: #212227;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 30px */
+  color: #212227;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
 }
 
 .rightCity {
-    color:#A6A8B5;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
+  color: #a6a8b5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
 }
 
 .rightSpecalization {
-    margin-top: 30px;
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 27px */
+  margin-top: 30px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
 }
 
 .rightDescription {
-    margin-top: 8px;
-    margin-left: 20px;
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
+  margin-top: 8px;
+  margin-left: 20px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
 }
 
 .contacts {
-    max-width: 1440px;
-    margin: 150px auto 48px auto;
-
+  max-width: 1440px;
+  margin: 150px auto 48px auto;
 }
 
 .contacts .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .contacts .container {
-    display: grid;
-    /* align-items: center; */
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
 }
 
 /* .leftSide h2 {
@@ -229,50 +276,162 @@ h2 {
 } */
 
 .contactsText {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .contactsDiv {
-    width: 100%;
-    border-top: 1px solid #444653;
-    padding: 20px 0;
+  width: 100%;
+  border-top: 1px solid #444653;
+  padding: 20px 0;
 }
 
 .contactsDiv:last-child {
-    border-bottom: 1px solid #444653;
+  border-bottom: 1px solid #444653;
 }
 
 .firstText {
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 8px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 8px;
 }
 
 .secondText {
-    color: #212227;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #212227;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .rightSide img {
-    width: 100%;
+  width: 100%;
 }
 
 .rightUniver {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    color: #212227;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 30px */
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: #212227;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
 }
 
 .backButton2 {
-    margin-top: 72px;
+  margin-top: 72px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header,
+  .slider,
+  .experience,
+  .contacts {
+    max-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+  }
+
+  h1 {
+    margin-top: 40px;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .aboutmeBlocks {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+  }
+
+  .aboutmeLink {
+    justify-self: end;
+  }
+
+  .sliderDiv {
+    justify-self: start;
+  }
+
+  .experienceDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .rightTitle {
+    margin-top: 40px;
+  }
+
+  .rightList {
+    padding-left: 10px;
+  }
+
+  .contacts .container {
+    grid-template-columns: 1fr;
+  }
+
+  .contactsText {
+    margin-top: 40px;
+  }
+
+  .rightSide {
+    margin-top: 40px;
+  }
+
+  .back {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .slider {
+    margin-top: 12px;
+  }
+
+  .aboutmeBlocks {
+    margin-top: 24px;
+    row-gap: 24px;
+    justify-content: stretch;
+  }
+
+  /* .aboutmeText {
+    font-size: 14px;
+  } */
+
+  .aboutmeLink {
+    justify-self: normal;
+  }
+
+  .toContacts {
+    justify-content: center;
+  };
+
+  .sliderDiv img {
+    width: 100%;
+  }
+
+  .swiper {
+    /* width: 336px; */
+    height: 400px;
+  }
+  .swiper-slide {
+    width: 100%;
+  }
 }

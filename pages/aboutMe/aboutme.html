@@ -18,6 +18,11 @@
     <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
 
@@ -28,21 +33,33 @@
     <h1>About me and my experience</h1>
     <div class="aboutmeBlocks">
         <div class="aboutmeText">Меня зовут Озиол Дамир, мне 27 лет, родом из Караганды, сейчас живу в Алматы. В UX/UI дизайне нравится структурированный подход к работе, возможность влиять на продукт и выражать свое творчество.</div>
-        <div></div>
         <div class="aboutmeLink">
             <div class="aboutmeText">Люблю фотошопить, играть в баскетбол, ездить на велосипеде, готовить и кушать вкусную еду.</div>
             <a href="#contacts" class="toContacts toContactsLink">Контакты&nbsp;<div class="toContactsLinkArrow"><img src="images/arrowDownRed.svg" alt="Контакты"><img src="images/arrowDown.svg" alt="Контакты"></div></a>
         </div>
-        <div></div>
     </div>
 </header>
 
 <section class="slider">
     <div class="container">
-        <div class="sliderDiv"></div>
         <div class="sliderDiv"><img src="images/domik.png" alt="It's Domik"></div>
-        <div class="sliderDiv"></div>
-        <div class="sliderDiv"><img src="images/domik1.png" alt="It's Domik"></div>
+        <div class="sliderDiv2">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/Damir1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/Damir.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/Damir2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/Damir3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/Damir4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/Damir5.jpg" alt=""></div>
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-next-2">Next</div>
+            </div>
+        </div>
     </div>
 </section>
 
