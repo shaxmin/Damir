@@ -405,6 +405,10 @@ h2 {
     margin-top: 12px;
   }
 
+  .slider .container {
+    justify-items: center;
+  }
+
   .aboutmeBlocks {
     margin-top: 24px;
     row-gap: 24px;
@@ -422,6 +426,10 @@ h2 {
   .toContacts {
     justify-content: center;
   };
+
+  .sliderDiv {
+    justify-self: center;
+  }
 
   .sliderDiv img {
     width: 100%;
