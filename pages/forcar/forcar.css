@@ -795,13 +795,34 @@ h2 {
     grid-area: SSS;
   }
 
-  /* Computers */
+  .componentsBlock {
+    flex-direction: column;
+  }
+
+  .structureLogos {
+    flex-direction: column;
+    row-gap: 56px;
+  }
+
+  .structureLogos {
+    margin-top: 80px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .mobileFrame {
     flex-wrap: wrap;
   }
+
+  .fontsColors {
+    margin-right: 0;
+  }
+
+  .structure {
+    margin-top: 80px;
+  }
+
+
 }
 
 @media only screen and (max-width: 722px) {
@@ -870,6 +891,14 @@ h2 {
 
   /* Mobile app */
 
+  .adminText {
+    font-size: 14px;
+  }
+
+  .threeRoles {
+    font-size: 18px;
+  }
+
   .uiDiv {
     grid-template-columns: 1fr;
     margin-bottom: 40px;
@@ -908,6 +937,26 @@ h2 {
 
   .designDiv {
     margin-bottom: 48px;
+  }
+
+  /* branding */
+
+  .brandingText {
+    font-size: 14px;
+  }
+
+  .brandText {
+    order: 1;
+    font-size: 14px;
+  }
+
+  .attributes {
+    min-width: 350px;
+    height: 234px;
+  }
+
+  .componentsBlock {
+    margin-top: 32px;
   }
 
   /* Footer */
