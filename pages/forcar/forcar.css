@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -11,37 +11,37 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
-    max-width: 1440px;
-    margin: 48px auto 0 auto;
+  max-width: 1440px;
+  margin: 48px auto 0 auto;
 }
 
 .back {
-    display: inline-flex;
-    padding: 28px 34px;
-    justify-content: center;
-    align-items: center;
-    gap: 5.003px;
-    border-radius: 50.033px;
-    border: 2px solid #009C4B;
-    background-color: transparent;
-    color: var(--Green, #009C4B);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    transition: .5s;
-    text-decoration: none;
-    margin-bottom: 70px;
+  display: inline-flex;
+  padding: 28px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.003px;
+  border-radius: 50.033px;
+  border: 2px solid #009c4b;
+  background-color: transparent;
+  color: var(--Green, #009c4b);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-bottom: 70px;
 }
 
 .back:hover {
-    color: #fff;
-    background-color: #009C4B;
+  color: #fff;
+  background-color: #009c4b;
 }
 
 .back:active {
@@ -50,25 +50,25 @@ body {
 }
 
 .topLine {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
 h1 {
-    color: #212227;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #212227;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 h2 {
-    color: #212227;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #212227;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .h2branding {
@@ -79,301 +79,316 @@ h2 {
 }
 
 .info {
-    max-width: 1440px;
-    margin: 48px auto 0 auto;
+  max-width: 1440px;
+  margin: 48px auto 0 auto;
 }
 
 .infoDiv {
-    padding: 40px 0;
-    border-top: 1px solid #444653;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+  padding: 40px 0;
+  border-top: 1px solid #444653;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .infoDiv:last-child {
-    border-bottom: 1px solid #444653;
+  border-bottom: 1px solid #444653;
 }
 
 .leftTitle {
-    color: #212227;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 36px */
-}
-
-.rightList {
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-}
-
-.switcher {
-    max-width: 1440px;
-    margin: 96px auto 0 auto;
-  }
-
-.content {
-    display: none;
-  }
-
-.content.is-active {
-    margin-top: 96px;
-    display: block;
-  }
-
-  .tabs {
-    list-style-type: none;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "col1-item1 col2-item1 col3-item1";
-    cursor: pointer;
-    color: #BCBECA;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-
-  .tabs li:hover {
-    color: #AEB0BC;
-  }
-
-  .tabs li:active {
-    color: #9DA0AC;
-  }
-
-  .mobileText {
-    color: #009C4B;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 12px;
-  }
-
-  .mobileImages {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-top: 48px;
-    margin-bottom: 48px;
-  }
-
-  .mobileImages div:last-child {
-    align-self: end;
-    margin-top: 92px;
-  }
-
-  .mobileImages img {
-    width: 100%;
-  }
-
-  .uiBlock {
-    margin-top: 89px;
-  }
-
-  .uiDiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    margin-bottom: 140px;
-  }
-
-  .uiTitle {
-
-    color: #212227;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; /* 36px */
-  }
-
-  .uiDescription {
-    max-width: 300px;
-    color: #212227;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 27px */
-    margin-top: 12px;
-  }
-
-  .greenText {
-    color:#009C4B;
-  }
-
-  .yellowText {
-    color:#EAB846;
-  }
-
-  .redText {
-    color:#CE3E1E;
-  }
-
-  .mobileFrame {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top: 48px;
-    width: 100%;
-    border-radius: 50px;
-    background: #F5F5F5;
-    padding: 53px 52px 55px 52px;
-
-  }
-
-  .mobileFrame div img {
-    width: 100%;
-
-  }
-
-  .lowFidelityBlock {
-    margin-top: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 15px;
-  }
-
-  /* Цвет для admin panel */
-
-  .adminText {
-    color: #009C4B;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 12px;
-  }
-
-  .uiDesignH2 {
-    margin-bottom: 89px;
-  }
-
-  .swiper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    /* height: 400px; */
-  }
-
-  .swiper-slide {
-    text-align: center;
-    vertical-align: center;
-  }
-
-  .swiper-slide img {
-    max-width: 100%;
-  }
-
-  .swiper-button-prev {
-    color: green;
-  }
-
-  .designDiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 140px;
-  }
-/*
-  .designDiv div {
-    width: 100%;
-  } */
-
-  .designImage {
-    width: 100%;
-  }
-
-  .designImage img {
-    width: 100%;
-  }
-
-  .designSelf {
-    justify-self: end;
-  }
-
-  .designText {
-      max-width: 336px;
-  }
-
-  .preLastdesignText {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .forIphone {
-    position: relative;
-    width: 100%;
-  }
-
-  .designIphone {
-    position: absolute;
-    right: 0;
-    max-width: 136px;
-  }
-
-  .designIphone img {
-    width: 100%;
-  }
-
-
-  .designTitle {
   color: #212227;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 36px */
-  }
+}
 
-  .designDescription {
+.rightList {
   color: #212227;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 27px */
-  }
+}
 
-  .threeRoles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: #212227;
+.switcher {
+  max-width: 1440px;
+  margin: 96px auto 0 auto;
+}
+
+.content {
+  display: none;
+}
+
+.content.is-active {
+  margin-top: 96px;
+  display: block;
+}
+
+.tabs {
+  list-style-type: none;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "col1-item1 col2-item1 col3-item1";
+  cursor: pointer;
+  color: #bcbeca;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tabs li:hover {
+  color: #aeb0bc;
+}
+
+.tabs li:active {
+  color: #9da0ac;
+}
+
+.mobileText {
+  color: #009c4b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.mobileImages {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.mobileImages div:last-child {
+  align-self: end;
+  margin-top: 92px;
+}
+
+.mobileImages img {
+  width: 100%;
+}
+
+.uiBlock {
+  margin-top: 89px;
+}
+
+.uiDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.uiTitle {
+  color: #212227;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.uiDescription {
+  max-width: 300px;
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-top: 12px;
+}
+
+.greenText {
+  color: #009c4b;
+}
+
+.yellowText {
+  color: #eab846;
+}
+
+.redText {
+  color: #ce3e1e;
+}
+
+.mobileFrame {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 48px;
+  width: 100%;
+  border-radius: 50px;
+  background: #f5f5f5;
+  padding: 53px 52px 55px 52px;
+}
+
+.mobileFrame div img {
+  width: 100%;
+}
+
+.lowFidelityBlock {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+/* Цвет для admin panel */
+
+.adminText {
+  color: #009c4b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.uiDesignH2 {
+  margin-bottom: 89px;
+}
+
+/* swiper */
+
+.swiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  /* height: 400px; */
+}
+
+.lowSwiper {
+  width: 95%;
+}
+
+.swiper-slide {
+  text-align: center;
+  vertical-align: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+}
+
+.swiper-button-prev {
+  color: green;
+}
+
+.lowSwiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowSwiper-slide img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.designDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+}
+/*
+  .designDiv div {
+    width: 100%;
+  } */
+
+.designImage {
+  width: 100%;
+}
+
+.designImage img {
+  width: 100%;
+}
+
+.designSelf {
+  justify-self: end;
+}
+
+.designText {
+  max-width: 336px;
+}
+
+.preLastdesignText {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forIphone {
+  position: relative;
+  width: 100%;
+}
+
+.designIphone {
+  position: absolute;
+  right: 0;
+  max-width: 136px;
+}
+
+.designIphone img {
+  width: 100%;
+}
+
+.designTitle {
+  color: #212227;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.designDescription {
+  color: #212227;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.threeRoles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #212227;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 48px */
-  }
+}
 
-  .adminFrame {
-    margin-bottom: 100px;
-  }
+.adminFrame {
+  margin-bottom: 100px;
+}
 
-  .brandingText {
-    color: #009C4B;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 12px;
-  }
+.brandingText {
+  color: #009c4b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
 
-  .brandPlatform {
-    margin-bottom: 100px;
-  }
+.brandPlatform {
+  margin-bottom: 100px;
+}
 
-  .brandText {
+.brandText {
   border-radius: 40px;
-  background: #FFF;
+  background: #fff;
   max-width: 426px;
   padding: 45px;
   color: #212227;
@@ -381,223 +396,223 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 27px */
-  }
+}
 
-  .brandAttribute {
-    margin-top: 48px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    row-gap: 27px;
-    column-gap: 29px;
-  }
+.brandAttribute {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 27px;
+  column-gap: 29px;
+}
 
-  .attributes {
-    min-width: 428px;
-    height: 286px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-    text-align: center;
-    font-family: 'TT Norms Pro', sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 53.846px; /* 168.269% */
-  }
+.attributes {
+  min-width: 428px;
+  height: 286px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: "TT Norms Pro", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53.846px; /* 168.269% */
+}
 
-  .attribute1 {
-    background-image: url('images/branding/attribute/1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute1 {
+  background-image: url("images/branding/attribute/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .attribute2 {
-    background-image: url('images/branding/attribute/2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute2 {
+  background-image: url("images/branding/attribute/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .attribute3 {
-    background-image: url('images/branding/attribute/3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute3 {
+  background-image: url("images/branding/attribute/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .attribute4 {
-    background-image: url('images/branding/attribute/4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute4 {
+  background-image: url("images/branding/attribute/4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .attribute5 {
-    background-image: url('images/branding/attribute/5.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute5 {
+  background-image: url("images/branding/attribute/5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .attribute6 {
-    background-image: url('images/branding/attribute/6.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.attribute6 {
+  background-image: url("images/branding/attribute/6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .keyWordsBlock {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+.keyWordsBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .keyWordsTitle {
+.keyWordsTitle {
   color: #909090;
   text-align: center;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.8px;
   margin-top: 106px;
-  }
+}
 
-  .keyWords {
-    margin-top: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1300px;
-    column-gap: 95px;
-    row-gap: 24px;
-    flex-wrap: wrap;
-  }
+.keyWords {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  column-gap: 95px;
+  row-gap: 24px;
+  flex-wrap: wrap;
+}
 
-  .keyWordsAlone {
-  font-family: 'TT Norms Pro', sans-serif;
+.keyWordsAlone {
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  }
+}
 
-  .gray {
-    color: #C7C7C7;
-  }
+.gray {
+  color: #c7c7c7;
+}
 
-  .green {
-    color: #178C23;
-    font-weight: 700;
-  }
+.green {
+  color: #178c23;
+  font-weight: 700;
+}
 
-  .components {
-    margin-top: 120px;
-  }
+.components {
+  margin-top: 120px;
+}
 
-  .componentsBlock {
-    margin-top: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 40px;
-  }
+.componentsBlock {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
 
-  .componentsSquare {
-    display: flex;
-    width: 250px;
-    height: 252px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 28px;
-    flex-shrink: 0;
-    border-radius: 40px;
-    border: 2px solid #F0F0F0;
-  }
+.componentsSquare {
+  display: flex;
+  width: 250px;
+  height: 252px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 28px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid #f0f0f0;
+}
 
-  .plus {
-  color: #C7C7C7;
+.plus {
+  color: #c7c7c7;
   text-align: center;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.25px;
   text-transform: uppercase;
-  }
+}
 
-  .componentsText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.componentsText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000;
   text-align: center;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  }
+}
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 203px;
-  }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 203px;
+}
 
-  .structure {
-    margin-top: 253px;
-  }
+.structure {
+  margin-top: 253px;
+}
 
-  .structureLogos {
-    margin-top: 137px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 269px;
-  }
+.structureLogos {
+  margin-top: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 269px;
+}
 
-  .brandingLogos {
-    margin-top: 64px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+.brandingLogos {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  .brandingImages {
-    max-width: 480px;
-  }
+.brandingImages {
+  max-width: 480px;
+}
 
-  .brandingImages img {
-    width: 100%;
-    vertical-align: bottom;
-  }
+.brandingImages img {
+  width: 100%;
+  vertical-align: bottom;
+}
 
-  .fonts {
-    margin-top: 64px;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-  }
+.fonts {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
 
-  .fontsTitle {
+.fontsTitle {
   color: #909090;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16.67px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  }
+}
 
-  .fontsColors {
-    max-width: 470px;
-    margin-right: 100px;
+.fontsColors {
+  max-width: 470px;
+  margin-right: 100px;
 }
 
 .fontsSquare {
@@ -608,70 +623,70 @@ h2 {
   width: 100%;
 }
 
-  .blue {
-    margin-top: 26px;
-    color: #2580D5;
-  }
+.blue {
+  margin-top: 26px;
+  color: #2580d5;
+}
 
-  .rgb {
+.rgb {
   margin-top: 20px;
   color: #909090;
-  font-family: 'TT Norms Pro', sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 14.586px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   display: flex;
   column-gap: 36px;
-  }
+}
 
-  .paletteTitle {
-    margin-top: 91px;
-  }
+.paletteTitle {
+  margin-top: 91px;
+}
 
-  .palette2 {
-    margin-top: 16px;
-  }
+.palette2 {
+  margin-top: 16px;
+}
 
-  .fontsUpper {
+.fontsUpper {
   color: #000;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-size: 47.926px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  }
+}
 
-  .fontsUpper1 {
-    margin-top: 4px;
-  }
+.fontsUpper1 {
+  margin-top: 4px;
+}
 
-  .fontsRoboto {
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 47.926px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    }
+.fontsRoboto {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 47.926px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-    .fontsRoboto2 {
-      color: #000;
-      font-family: 'Roboto', sans-serif;
-      font-size: 41px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      }
+.fontsRoboto2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-    .fontsRoboto1 {
-      margin-top: 4px;
-    }
+.fontsRoboto1 {
+  margin-top: 4px;
+}
 
-  .abcd1 {
+.abcd1 {
   margin-top: 8px;
   color: #909090;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-size: 16.67px;
   font-style: normal;
   font-weight: 400;
@@ -680,71 +695,224 @@ h2 {
   flex-wrap: wrap;
   column-gap: 50px;
   row-gap: 6px;
-  }
+}
 
-  .abcd2 {
-    margin-top: 8px;
-    color: #909090;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16.67px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 50px;
-    row-gap: 6px;
-    }
+.abcd2 {
+  margin-top: 8px;
+  color: #909090;
+  font-family: "Roboto", sans-serif;
+  font-size: 16.67px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 6px;
+}
 
-    .abcd3 {
-      font-weight: 400;
-    }
+.abcd3 {
+  font-weight: 400;
+}
 
-  .fontsTitleMargin {
-    margin-top: 66px;
-  }
+.fontsTitleMargin {
+  margin-top: 66px;
+}
 
-  .mockup {
-    margin-top: 64px;
-  }
+.mockup {
+  margin-top: 64px;
+}
 
-  .mockupImage img {
-    width: 100%;
-    vertical-align: bottom;
-  }
+.mockupImage img {
+  width: 100%;
+  vertical-align: bottom;
+}
 
-  .mockupImage100 {
-    display: flex;
-  }
+.mockupImage100 {
+  display: flex;
+}
 
+.mockupImage50 img {
+  width: 100%;
+  vertical-align: bottom;
+}
 
-  .mockupImage50 img {
-    width: 100%;
-    vertical-align: bottom;
-  }
+/* Футер */
 
-  /* Футер */
+.footer {
+  max-width: 1440px;
+  margin: 48px auto;
+}
 
+.footerButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBack {
+  margin-bottom: 0;
+}
+
+.swiperMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header,
+  .info,
+  .switcher,
   .footer {
-    max-width: 1440px;
-    margin: 48px auto;
+    max-width: 95%;
   }
+
+  .tabs {
+    font-size: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .uiDiv {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "TTT TTT TTT"
+      "MMM RRR SSS";
+  }
+
+  .TTT {
+    grid-area: TTT;
+    margin-bottom: 32px;
+  }
+
+  .MMM {
+    grid-area: MMM;
+  }
+
+  .RRR {
+    grid-area: RRR;
+  }
+
+  .SSS {
+    grid-area: SSS;
+  }
+
+  /* Computers */
+}
+
+@media only screen and (max-width: 768px) {
+  .mobileFrame {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .MMM img {
+    width: 100%;
+  }
+
+  .RRR img {
+    width: 100%;
+  }
+
+  .SSS img {
+    width: 100%;
+  }
+
+  /* Computers */
+
+  .designDiv {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "QQ"
+    "CC";
+  }
+
+  .CC {
+    grid-area: CC;
+    margin-top: 32px;
+  }
+
+  .QQ {
+    grid-area: QQ;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* header */
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .mobileText {
+    font-size: 14px;
+  }
+
+  .topLogo img {
+    width: 104px;
+  }
+
+  .back {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .infoDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .rightList {
+    padding-left: 23px;
+  }
+
+  /* Mobile app */
+
+  .uiDiv {
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+
+  .swiperMobile {
+    display: block;
+    max-width: 340px;
+    justify-self: center;
+  }
+
+  .uiDescription {
+    max-width: 100%;
+  }
+
+  .mobileSwiper {
+    width: 100%;
+  }
+
+  .MMM,
+  .RRR,
+  .SSS {
+    display: none;
+  }
+
+  .TTT4 {
+    display: none;
+  }
+
+  .tabs {
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* Computer */
+
+  .designDiv {
+    margin-bottom: 48px;
+  }
+
+  /* Footer */
 
   .footerButtons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column-reverse;
   }
-
-  .bottomBack {
-    margin-bottom: 0;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .mobileFrame {
-      flex-wrap: wrap;
-    }
-
-
-
-  }
+}
