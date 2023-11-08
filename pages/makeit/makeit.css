@@ -215,6 +215,20 @@ h2 {
     row-gap: 30px;
   }
 
+  .rightLaptops {
+    position: relative;
+  }
+
+  .mobileRight {
+    position: relative;
+    order: 2;
+  }
+
+  .laptopRight {
+    position: relative;
+    order: 1;
+  }
+
   .AAA {
     grid-area: AAA;
   }
