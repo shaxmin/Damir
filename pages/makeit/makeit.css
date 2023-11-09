@@ -201,10 +201,13 @@ h2 {
     margin-bottom: 0;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1366px) {
     .header, .info, .website, .footer {
       max-width: 95%;
+    }
   }
+
+  @media only screen and (max-width: 1000px) {
 
   .leftLaptops, .rightLaptops {
     grid-template-columns: 1fr;
