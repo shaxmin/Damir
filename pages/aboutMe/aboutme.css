@@ -324,7 +324,7 @@ h2 {
   margin-top: 72px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1366px) {
   .header,
   .slider,
   .experience,
